@@ -35,8 +35,6 @@
   "dependencies": {
     "camelcase": "^6.2.0",
     "depd": "^2.0.0",
-    "js-yaml": "^4.0.0",
-    "openid-client": "^4.4.0",
     "swagger-fluent": "^5.0.3"
   },
   "devDependencies": {
@@ -44,11 +42,13 @@
     "@types/node": "14.14.31",
     "chai": "4.3.0",
     "deepmerge": "^4.2.2",
+    "js-yaml": "^4.0.0",
     "json-stream": "^1.0.0",
     "mocha": "8.3.0",
     "mustache": "4.1.0",
     "nock": "13.0.7",
     "nyc": "15.1.0",
+    "openid-client": "^4.4.0",
     "pump": "^3.0.0",
     "qs": "^6.9.6",
     "request": "^2.88.2",
