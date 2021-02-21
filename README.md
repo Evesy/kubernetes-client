@@ -1,3 +1,5 @@
+**NOTE**: This repo shuoldn't be used, we're gradually strangling uor dependency on it due to it being deprecated, and are doing so by removing chunks of this at a time
+
 # kubernetes-client
 
 [![Join Slack](https://img.shields.io/badge/Join%20us%20on-Slack-e01563.svg)](https://godaddy-oss-slack.herokuapp.com/)
