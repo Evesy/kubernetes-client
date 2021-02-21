@@ -8,7 +8,6 @@ const path = require('path')
 const zlib = require('zlib')
 
 const Client = require('..').Client
-
 /**
  * Get the typescript interface name for a swagger-fluent component.
  * @param {object} component - swagger-fluent Component.

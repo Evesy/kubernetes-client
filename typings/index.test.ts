@@ -1,7 +1,7 @@
 import Api = require('./');
 
 const Client = Api.Client1_17;
-const config = Api.config;
+const config = require('./backends/request/config');
 
 const deploymentManifest = {
   metadata: {
