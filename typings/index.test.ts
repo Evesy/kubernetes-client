@@ -1,6 +1,6 @@
 import Api = require('./');
 
-const Client = Api.Client1_17;
+const Client = Api.Client1_19;
 const config = require('./backends/request/config');
 
 const deploymentManifest = {
@@ -103,7 +103,7 @@ async function main1() {
 
 async function main2() {
   try {
-    const client = new Client({ config: config.fromKubeconfig(), version: '1.17' });
+    const client = new Client({ config: config.fromKubeconfig(), version: '1.19' });
     const create = await client.apis.apps.v1.ns('default').deploy.post({ body: deploymentManifest });
     console.log('Result: ', create);
   } catch (err) {
