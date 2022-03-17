@@ -20,10 +20,10 @@ function interfaceName (component) {
   }
 
   //
-  // Replace '.'s with '_'s and CamelCase.
+  // Replace '.'s & '-'s with '_'s and CamelCase.
   //
   return component.splits
-    .map(split => split.replace(/\./g, '_').replace(/./, first => first.toUpperCase()))
+    .map(split => split.replace(/-/g, '_').replace(/\./g, '_').replace(/./, first => first.toUpperCase()))
     .join('')
 }
 

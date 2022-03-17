@@ -7589,7 +7589,7 @@ export interface Openid {
            addCustomResourceDefinition(schema: object): void
        }
 
-export interface _well-knownOpenid-configuration {
+export interface _well_knownOpenid_configuration {
            // Path templating
            // Sub-paths
            // Calls
@@ -7598,10 +7598,10 @@ export interface _well-knownOpenid-configuration {
            addCustomResourceDefinition(schema: object): void
        }
 
-export interface _well-known {
+export interface _well_known {
            // Path templating
            // Sub-paths
-           'openid-configuration': _well-knownOpenid-configuration
+           'openid-configuration': _well_knownOpenid_configuration
            // Calls
            addCustomResourceDefinition(schema: object): void
        }
@@ -7640,7 +7640,7 @@ export interface ApiRoot {
            'api': Api
            'apis': Apis
            'openid': Openid
-           '.well-known': _well-known
+           '.well-known': _well_known
            'logs': Logs
            'log': Logs
            'version': Version
